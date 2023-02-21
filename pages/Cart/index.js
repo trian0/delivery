@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { ScrollView } from 'react-native';
-import { AuthContext } from '../contexts/auth';
+import { AuthContext } from '../../contexts/auth';
 import { Container, StyledImage, ItemContainer, Quantity, TotalText, TotalValue, TotalContainer } from './styles';
 
 function Cart() {

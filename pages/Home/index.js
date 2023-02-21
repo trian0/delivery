@@ -20,9 +20,9 @@ import {
 import { MaterialIcons } from '@expo/vector-icons';
 import { ScrollView } from 'react-native';
 import { useState, useContext } from 'react';
-import { coffees } from '../assets/coffees';
+import { coffees } from '../../assets/coffees';
 import { useNavigation } from '@react-navigation/native';
-import { AuthContext } from '../contexts/auth';
+import { AuthContext } from '../../contexts/auth';
 
 function Home() {
     const [defaultCoffees, setDefaultCoffees] = useState(coffees);
